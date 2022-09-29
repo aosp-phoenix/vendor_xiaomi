@@ -8637,9 +8637,9 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-	name: "android.hardware.keymaster@4.1-service-qti",
+	name: "android.hardware.keymaster@4.0-service-qti",
 	owner: "xiaomi",
-	srcs: ["proprietary/vendor/bin/hw/android.hardware.keymaster@4.1-service-qti"],
+	srcs: ["proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-service-qti"],
 	check_elf_files: false,
 	strip: {
 		none: true,
